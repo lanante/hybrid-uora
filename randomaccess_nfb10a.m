@@ -17,7 +17,7 @@ tpreamblePHY=40e-6;   %40us
 tSIFS=16e-6;
 tPIFS=25e-6;
 tTF=100e-6;
-PHY=7.5*1e6;
+PHY=14.7*1e6;
 % EP=round(PHY*(tTXOP-tpreamblePHY)/8);
 tTXOP=EP*8/PHY+tpreamblePHY;
 

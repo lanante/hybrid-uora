@@ -5,7 +5,7 @@ close all
 lambdae=200;   %lambdae packet per TF. Can accomodate about 1/tTF/lambda users. full buffer if equal to inf
 EOCWmin=4;
 r=[16];
-nA=[5];
+nA=[5 10 20 40 100];
 EOCWmax=7;
 UA=[1 2 4 8];
 dh=5;
